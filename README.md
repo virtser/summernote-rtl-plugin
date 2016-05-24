@@ -8,7 +8,7 @@ Note: Developed and tested with Summernote v0.7.3
 
 ```<script src="scripts/libs/summernote-ext-rtl.js"></script>```
 
-* Add ['insert',['ltr','rtl']] setting into your summernote toolbar options like this:
+* Add *['insert',['ltr','rtl']]* setting into your summernote toolbar options like this:
 ```
 var options =  {
   height: 300,                
