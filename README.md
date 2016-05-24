@@ -24,6 +24,6 @@ var options =  {
 summernote.summernote(options);
 ```
 
-3. Enjoy and start using it. ;)
+Enjoy and start using it. ;)
 
 ![](http://i.imgur.com/9ajdjdn.png)
