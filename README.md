@@ -3,6 +3,7 @@ Summernote RTL plugin/extension to be used with Super simple WYSIWYG editor - ht
 
 This extensions allows to add two new buttons to Summernote editor toolbar. 
 Those buttons let user change text direction to either LTR (left to right) or RTL (right to left).
+This is especially useful in right to left languages like Hebrew or Arabic.
 
 Note: developed and tested with Summernote v0.7.3
 
