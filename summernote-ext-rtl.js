@@ -61,6 +61,8 @@
                         var highlight = window.getSelection();
                         var range = highlight.getRangeAt(0);
                         var elementsClass = range.endContainer.parentElement;
+
+                       
                         window.highlight = highlight;
                         window.range = range;
                         window.elementsClass = elementsClass;
@@ -72,6 +74,10 @@
                             range.insertNode(spn);
                         } else {
                             elementsClass.style.direction = 'rtl';
+                            if($(elementsClass).is("li")){
+                                direction = $(elementsClass).css('direction');
+                                $(elementsClass).parent().css('direction',direction);
+                            }
                         }
                         clearSelection();
                     }
@@ -130,6 +136,10 @@
                             range.insertNode(spn);
                         } else {
                             elementsClass.style.direction = 'ltr';
+                            if($(elementsClass).is("li")){
+                                direction = $(elementsClass).css('direction');
+                                $(elementsClass).parent().css('direction',direction);
+                            }
                         }
                         clearSelection();
                     }
